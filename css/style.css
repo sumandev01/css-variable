@@ -1,0 +1,80 @@
+/*global*/
+:root{
+	--my: 10px 0;
+	--p-20: 20px;
+	--py-20: 20px 0;
+	--py-40: 40px 0;
+	--pt-40: 40px 0 0;
+	--first: left;
+	--middle: center;
+	--last: right;
+	--pop: "Poppins", sans-serif;
+	--regular: 400;
+	--bold: 700;
+	--20: 20px;
+	--30: 30px;
+	--40: 40px;
+	--teal: #1a9e9e;
+	--white: #fff;
+	--indigo: #093145;
+	--orange-yello: #FFC107;
+}
+body{
+	font-family: var(--pop);
+	font-weight: var(--regular);
+	font-size: var(--20);
+	background-color: var(--indigo);
+}
+.box1{
+	background-color: var(--orange-yello);
+}
+.box1 h2{
+	padding: var(--py-20);
+	font-size: var(--20);
+	font-weight: var(--bold);
+	color: var(--white);
+	text-align: var(--middle);
+}
+.box2 h1{
+	margin: var(--my);
+	padding: var(--py-20);
+	font-size: var(--40);
+	font-weight: var(--regular);
+	color: var(--teal);
+	text-align: var(--middle);
+	border: 2px solid var(--teal);
+}
+.box3 h1{
+	margin: var(--my);
+	padding: var(--py-40);
+	font-size: var(--30);
+	font-weight: var(--regular);
+	color: var(--white);
+	text-align: var(--last);
+	border: 2px solid var(--white);
+}
+.box3 h1{
+	margin: var(--my);
+	padding: var(--py-20);
+	font-size: var(--20);
+	font-weight: var(--bold);
+	color: var(--orange-yello);
+	text-align: var(--middle);
+	border: 2px solid var(--orange-yello);
+}
+.box4 p{
+	margin: var(--my);
+	padding: var(--py-40);
+	font-size: var(--30);
+	font-weight: var(--bold);
+	color: var(--teal);
+	border: 2px solid var(--teal);
+}
+.box5 p{
+	margin: var(--my);
+	padding: var(--p-20);
+	font-size: var(--20);
+	font-weight: var(--regular);
+	color: var(--white);
+	border: 2px solid var(--white);
+}
